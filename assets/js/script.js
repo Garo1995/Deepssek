@@ -124,6 +124,7 @@ let industrySwiper = new Swiper(".industry-slider", {
     },
     pagination: {
         el: ".industry-pagination",
+        clickable: true,
     },
 });
 
@@ -149,6 +150,7 @@ let peopleSwiper = new Swiper(".about-people-slider", {
     },
     pagination: {
         el: ".about-pagination",
+        clickable: true,
     },
 });
 
