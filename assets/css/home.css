@@ -27,7 +27,7 @@ p{
 
 
 .advanced-main{
-    background-image: url("../img/main-fon.png");
+    background-image: url("../img/main-fon.webp");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 166px 0 60px;
@@ -767,7 +767,7 @@ p{
     position: absolute;
     top: 0;
     right: 35px;
-    background-image: url("../img/liners-circle.png");
+    background-image: url("../img/liners-circle.webp");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1104px;
