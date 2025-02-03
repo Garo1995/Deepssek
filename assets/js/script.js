@@ -15,8 +15,6 @@ $(document).ready(function () {
         $('body').removeClass('body_fix');
         $('.nav-menu').removeClass('transition-menu');
         $('.open-menu').removeClass('close-menu');
-        $('.head-menu a').removeClass('menu-href-active');
-        $(this).addClass('menu-href-active');
     })
 });
 
@@ -107,6 +105,7 @@ let featuresSwiper = new Swiper(".advanced-slider", {
 let industrySwiper = new Swiper(".industry-slider", {
     slidesPerView: 1,
     spaceBetween: 20,
+    loop: true,
     breakpoints: {
         '991': {
             slidesPerView: 1,
@@ -133,6 +132,7 @@ let industrySwiper = new Swiper(".industry-slider", {
 let peopleSwiper = new Swiper(".about-people-slider", {
     slidesPerView: 2,
     spaceBetween: 20,
+    loop: true,
     breakpoints: {
         '991': {
             slidesPerView: 2,
